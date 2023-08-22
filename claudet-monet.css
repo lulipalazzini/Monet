@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    background-color: #82CD47;
+  }
+  
+  #top-opciones {
+    background-color: #379237;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0; left: 0;
+    margin: 0;
+    width: 100%;
+
+  }
+  
+  .logo > img {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 400px;
+    width: 60vw;
+    height: 100%;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  
+  ul > li {
+    list-style: none;
+    float: left;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #home {
+    background-color: #82CD47;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #nenufares {
+    width: 100%;
+    margin: 0;
+  }
+  
+  figcaption {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  #biography {
+    background-color: #54B435;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #biography > div {
+    width: 45%;
+  }
+
+  .biografia {
+    padding-right: 35px;
+  }
+  
+  #retrato {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  #contact {
+    background-color: #F0FF42;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #contact > div {
+    width: 45%;
+  }
+
+  #impresion {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  #newsletter {
+    margin-left: 50px;
+  }
+
+  .color {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+  h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-decoration: underline wavy;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #email {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  #submit {
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  #frase{
+    font-style: italic;
+    text-align: center;
+    background-color: #82CD47;
+    font-size: 20px;
+  }
+
+  .comillas {
+    font-size: 30px;
+  }
+
+  hr {
+    height: 3px;
+    border: none;
+    border-style: dashed;
+    border-color: #379237;
+  }
+
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+
+  footer > ul > li {
+    padding: 0 10px;
+  }
+
+  footer > span {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+
+  .space {
+    padding-left: 5px;
+  }
